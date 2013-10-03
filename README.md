@@ -18,6 +18,8 @@ This VM fits for the following use case: As developer, I want to quickly (in les
         vagrantup
 
 ## Usage
+Everything is installed and provisioned, it's time for your PP session
+
 ### Your side
 Vagrant has configured a redirection from port 22222 on your dev machine (the _host_) to port 22 on the VM (the _guest_).
 
@@ -44,3 +46,7 @@ and attach his terminal to the existing session
     tmux attach
 
 Et voilà 
+
+## Resources
+
+  - tmux cheat sheet: `http://www.dayid.org/os/notes/tm.html`

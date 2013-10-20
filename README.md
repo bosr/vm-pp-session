@@ -3,12 +3,12 @@ This VM fits for the following use case: As developer, I want to quickly (in les
 
 ## Installation
 1. First install vagrant: `http://vagrantup.com`
-2. you can choose another linux box on `http://www.vagrantbox.es`
-3. add the `precise64` box:
+2. Choose a linux box on `http://www.vagrantbox.es`. I chose Ubuntu precise64.
+3. Add the `precise64` box:
 
         vagrant box add precise64 http://files.vagrantup.com/precise64.box
 
-4. git clone this repo
+4. Clone this repo
 
         git clone git@github.com:romain/ppsession
 
@@ -32,7 +32,7 @@ or
 
     ssh pair@your-ip -p 22222
 
-Then start your tmux session:
+Once logged in, start your tmux session:
 
     tmux
 
@@ -41,7 +41,7 @@ Your pair can login simply:
 
     ssh pair@your-ip -p 22222
 
-and attach his terminal to the existing session
+Once logged, she can attach her terminal to the existing session
 
     tmux attach
 
